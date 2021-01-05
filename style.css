@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,200&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: 'Nunito Sans', sans-ser;
+}
+
+nav ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   padding: 5px;
+   margin-left: 200px;
+   margin-right: 400px;
+}
+
+.text {
+   font-size: 1em;
+   text-decoration: none;    
+   cursor: pointer;
+   text-align: center;
+   font-weight: 600;
+}
+
+
+nav ul img  {
+   width: 50px;
+   height: 50px;
+   margin: 10px
+}
+
+#heading {
+   background-color: yellow;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+}
+
+#heading div {
+   display: flex;
+   justify-content: space-around;
+   margin: 10px 0;
+   width: 100%;
+}
+
+#heading img {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+}
+
+#headig div article {
+   background: white;
+   color: black;
+   height: 200px;
+   width: 250px;
+   border-radius:10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   text-align: center;
+}
+
+.link-button {
+   display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:black;
+  background-color:white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  
+}
+
+#content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+}
+
+#about {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+
+#about ul {
+   list-style: none;
+   padding: 10px;
+}
+
+#about h4 {
+   text-align: center;
+}
+
+#about ul li {
+   margin: 10px 0;
+   margin-left: 10px;
+}
+
+#terms {
+   background-color: black;
+   display: flex;
+   color: white;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+}
+
+#terms {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+
+#foot ul {
+   display: flex;
+   justify-content: flex-start;
+   list-style: none;
+   padding: 0.1px;
+   margin-right: 1000px;
+   color: white;
+   margin-left: 100px;
+}
+
+#foot ul li{
+   margin-right: 40px;
+   color:white
+}
+
+#lang{
+   margin-right: 1100px;
+   margin-left: 2px;
+}
+
+#company{
+   margin-left: 15px;
+}
+
+#community{
+   margin-right: 57px;
+}
+
+#advertising{
+   margin-right: 45px;
+}
+
+#legal{
+   margin-right: 140px;
+}
